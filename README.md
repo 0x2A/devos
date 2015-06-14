@@ -4,7 +4,7 @@
 
 ### Hardware Requirements:
 
-- x64 CPU
+- x86 CPU (i686 or higher)
 - minimum 10 mb ram
 - VGA compatible GPU
 
@@ -26,7 +26,7 @@ on windows you need [cygwin](http://www.cygwin.com/) to compile with the followi
 run these commands in console:
 ```
 export PREFIX=/usr/local/cross
-export TARGET=x86_64-elf
+export TARGET=i686-elf
 export PATH=$PATH:$PREFIX/bin
 mkdir cross_gcc
 cd cross_gcc
