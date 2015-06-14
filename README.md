@@ -21,7 +21,7 @@ on windows you need [cygwin](http://www.cygwin.com/) to compile with the followi
   - nasm
   - wget
 
-#### build 64-bit cross-compiler
+#### build cross-compiler
 
 run these commands in console:
 ```
