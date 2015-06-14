@@ -3,7 +3,7 @@ OUTPUTNAME = kernel.bin
 BUILDDIR = build
 
 LD	= /usr/local/cross/bin/i686-elf-ld
-LDFLAGS = -T link.ld -L/cross/lib/gcc/i686-elf/5.1.0 -o $(BUILDDIR)/$(OUTPUTNAME) 
+LDFLAGS = -T link.ld -L/usr/local/cross/lib/gcc/i686-elf/5.1.0 -o $(BUILDDIR)/$(OUTPUTNAME) 
 
 build: compileall
 	@echo "linking..."
